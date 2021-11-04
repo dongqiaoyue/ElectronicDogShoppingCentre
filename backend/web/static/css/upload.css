@@ -1,0 +1,61 @@
+.file {
+    display: none;
+}
+
+.upload {
+}
+
+.upload .upload_item {
+    cursor: move;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.upload_item img {
+
+    max-height: 100%;
+}
+
+.upload_item .item_delete {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+
+.itemContainer {
+    box-sizing: content-box;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px gray;
+    padding: 5px;
+    transition: 0.2s;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    display: inline-block;
+    overflow: hidden;
+    height: 200px;
+}
+
+.itemContainer:hover {
+    box-shadow: 2px 2px 6px grey;
+}
+
+.itemContainer:active {
+    box-shadow: 3px 3px 20px #409EFF;
+}
+
+.itemContainer--dragOver {
+    box-shadow: 3px 3px 20px #409EFF !important;
+}
